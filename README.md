@@ -1,3 +1,15 @@
+# Projet
+
+#Dans un premier temps, importation du dataset, connexion avec le drive, et importation du code Tripletface
+Après quelques essaye, j'ai choisit les paramêtre suivant :
+- Epochs : 5 (sinon trop long pour peu de changement)
+- Batch_size : 64
+- Input_size : 256
+
+Nous avons ensuite récupéré dans le dossier model les 5 visualisations qui ont été faites et un fichier model.pt
+
+Suite a ca, on peut créer notre jit a partir du model.pt
+
 Triplet loss for facial recognition.
 
 # Triplet Face
